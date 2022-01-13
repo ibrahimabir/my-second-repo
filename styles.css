@@ -96,10 +96,12 @@ hr{
     grid-row-gap:26px;
     padding-top: 20px;
     margin-bottom: 42px;
+    margin-right: 15px;
 }
 .blog{
     display: flex;
     margin-left: 30px;
+    border-radius: 5px;
 }
 .blog img{
     width: 177px;
@@ -233,4 +235,21 @@ footer{
         margin-left: 0;
     } 
 }
-/* media queries for large device */
+/* medis queries for larger device */
+@media only screen and (min-width:993px) {
+    .course:hover{
+        box-shadow: 5px 5px 5px rgb(167, 163, 163), -5px -5px 5px rgb(167, 161, 161);
+        transition: box-shadow 0.3s ease-out ;
+    }
+    .blog:hover{
+        box-shadow: 5px 5px 5px rgb(167, 161, 161), -5px -5px 5px rgb(167, 161, 161);
+        transition: box-shadow 0.3s ease-out;
+    }
+    .menus a:hover{
+        color: rgb(243, 131, 131);
+    }
+    .blog-info p a:hover{
+        color: lightpink;
+    }
+    
+}
