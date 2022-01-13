@@ -1,0 +1,111 @@
+/* font styles */
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@500&display=swap');
+/* combained styles */
+body{
+    margin: 0;
+    padding: 0;
+    font-family: 'Poppins', sans-serif;
+    background-color: #F3F1FF;
+}
+main{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.container{
+    width: 870px;
+    background-color: #FFFFFF;
+    margin-top: 36px;
+    border-radius: 5px;
+}
+hr{
+    margin: 30px 15px 0 15px ;
+  
+}
+/* menu bar styles */
+nav{
+    background-color:  #562EFF;
+    height: 94px;
+    display: flex;
+    justify-content: space-between;
+    padding-left: 285px;
+    padding-right: 285px;
+  
+}
+.menu{
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
+.menu img{
+    width: 40px;
+    padding: 20px 0 20px 0;
+}
+.menu a{
+    text-decoration: none;
+    color: #FFFFFF;
+    font-size: 16px;
+    margin-left: 36px;
+}
+.menu p{
+    color: #FFFFFF;
+    margin-left: 36px;
+    font-size: 24px;
+}
+/* top player styles */
+.top-player{
+   padding-top: 20px;
+}
+.section-title{
+    margin-top: 33px;
+    margin-left: 33px;
+    color: #562EFF;
+    font-size: 24px;
+}
+.players{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-row-gap:29px;
+}
+.player{
+    display: flex;
+}
+.player img{
+    height: 56px;
+    width: 56px;
+    margin-left: 33px;
+}
+.player p{
+    margin-left: 16px;
+    font-size: 18px;
+}
+/* top blog styles */
+.blogs{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-row-gap:26px;
+    padding-top: 11px;
+    margin-bottom: 42px;
+}
+.blog{
+    display: flex;
+    margin-left: 30px;
+}
+.blog img{
+    width: 177px;
+    height: 117px;
+}
+.blog-info{
+    margin-left: 16px;
+}
+.blog-info h3{
+    font-size: 20px;
+    margin-top: 0;
+}
+.blog-info p{
+    font-size: 16px;
+   color: #9F9F9F;
+}
+.blog-info a{
+    text-decoration: none;
+}
