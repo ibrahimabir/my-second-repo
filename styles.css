@@ -18,6 +18,14 @@ main{
     margin-top: 36px;
     border-radius: 5px;
 }
+.container-two{
+    width: 870px;
+    height: 400px;
+    background-color: #FFFFFF;
+    margin-top: 36px;
+    border-radius: 5px;
+    margin-bottom: 30px;
+}
 hr{
     margin: 30px 15px 0 15px ;
   
@@ -28,8 +36,8 @@ nav{
     height: 94px;
     display: flex;
     justify-content: space-between;
-    padding-left: 285px;
-    padding-right: 285px;
+    padding-left: 300px;
+    padding-right: 300px;
   
 }
 .menu{
@@ -59,6 +67,7 @@ nav{
 .section-title{
     margin-top: 33px;
     margin-left: 33px;
+    margin-bottom: 11px;
     color: #562EFF;
     font-size: 24px;
 }
@@ -66,6 +75,7 @@ nav{
     display: grid;
     grid-template-columns: repeat(3, 1fr);
     grid-row-gap:29px;
+    padding-top: 29px;
 }
 .player{
     display: flex;
@@ -84,7 +94,7 @@ nav{
     display: grid;
     grid-template-columns: repeat(2, 1fr);
     grid-row-gap:26px;
-    padding-top: 11px;
+    padding-top: 20px;
     margin-bottom: 42px;
 }
 .blog{
@@ -108,4 +118,56 @@ nav{
 }
 .blog-info a{
     text-decoration: none;
+}
+/* latest course styles */
+.courses{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-column-gap:23px;
+    margin: 0 36px 22px 28px;
+}
+.course{
+    width: 252px;
+    height: 295px;
+    border: 1px solid white;
+    border-radius: 10px;
+    /* padding: 13px 17px 0 11px ; */
+}
+.course img{
+    width: 252px;
+    height: 141px;
+}
+.course-detailes span{
+    color: #ED6B4F;
+    font-size: 15px;
+}
+.course-detailes p{
+    color: #1E1E1E;
+    font-size: 20px;
+    margin-bottom: 7px;
+}
+.course-duration{
+    display: flex;
+    justify-content: space-between;
+}
+.star-image{
+    display: flex;
+}
+.star-image img{
+    width: 12px;
+    height: 12px;
+}
+.no-color{
+    color:  #AEAEAE;
+    opacity: 0.25;
+}
+.duration-hour{
+    display: flex;
+}
+.duration-hour img{
+    width: 20px;
+    height: 20px;
+}
+.duration-hour span{
+    color: #FF4A60;
 }
