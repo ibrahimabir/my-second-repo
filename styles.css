@@ -31,7 +31,7 @@ hr{
   
 }
 /* menu bar styles */
-nav{
+.menus{
     background-color:  #562EFF;
     height: 94px;
     display: flex;
@@ -177,3 +177,60 @@ footer{
     font-size: 20px;
     margin-top: 30px;
 }
+/* media quaries styles */
+/* media quaries for small device */
+@media only screen and (max-width:680px) {
+    .menus{
+        width: 100%;
+        height: auto;
+        padding-left: 0;
+        padding-right: 0;
+    }
+    .container{
+        width: 100%;
+    }
+    .container-two{
+        width: 100%;
+        height: auto;
+    }
+    .blogs, .courses, .players{
+        grid-template-columns: repeat(1, 1fr);
+    }
+    .player, .blog, .course, .menus{
+        flex-direction: column;
+        align-items: center;
+    }
+    .blog-info{
+        margin-left: 0;
+    }
+    footer{
+        display: none;
+    }
+}
+/* media quearis for medium device */
+@media only screen and (min-width:681px) and (max-width:992px) {
+    .menus{
+        width: 100%;
+        height: auto;
+        padding-left: 0;
+        padding-right: 0;        
+    }
+    .container{
+        width: 100%;
+    }
+    .container-two{
+        width: 100%;
+        height: auto;
+    }
+    .courses, .players{
+        grid-template-columns: repeat(2, 1fr);
+    }
+    .player, .blog, .course, .menus{
+        flex-direction: column;
+        align-items: center;
+    }
+    .blog-info{
+        margin-left: 0;
+    } 
+}
+/* media queries for large device */
